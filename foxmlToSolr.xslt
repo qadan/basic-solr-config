@@ -46,6 +46,9 @@
   <xsl:param name="maintain_dataset_latest_version_flag" select="false()"/>
   <xsl:param name="index_compound_sequence" select="true()"/>
   <xsl:param name="index_checksums" select="false()"/>
+  <xsl:param name="mods_fork_on_roles" select="true()"/>
+  <xsl:param name="mods_fork_on_authority" select="true()"/>
+  <xsl:param name="mods_fork_on_language" select="true()"/>
 
   <!-- These values are accessible in included xslts -->
   <xsl:variable name="PROT">http</xsl:variable>
